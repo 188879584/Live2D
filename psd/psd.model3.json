@@ -1,0 +1,11 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "psd.moc3",
+		"Textures": [
+			"psd.1024/texture_00.png"
+		],
+		"DisplayInfo": "psd.cdi3.json"
+	},
+	"HitAreas": []
+}

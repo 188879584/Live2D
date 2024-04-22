@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OhMyLive2D</title>
+  </head>
+  <body>
+    <script src="https://unpkg.com/oh-my-live2d@latest"></script>
+    <script>
+      OML2D.loadOml2d({
+        primaryColor: "#FF2100",
+        menus: {
+          disable: true
+        },
+        tips: {
+          welcomeTips: {
+            message: {
+              afternoon: "言传小童陪你开始下午学习",
+              daybreak: "言传小童陪你开始清晨学习",
+              dusk: "言传小童陪你开始傍晚学习",
+              lateNight: "言传小童陪你开始深夜学习",
+              morning: "言传小童陪你开始上午学习",
+              noon: "言传小童陪你开始午间学习",
+              weeHours: "言传小童陪你开始凌晨学习",
+              night: "言传小童陪你开始晚间学习",
+            }
+          }
+        },
+        statusBar: {
+          loadSuccessMessage: "言传小童载入成功"
+        },
+        models: [
+          {
+            path: 'https://raw.githubusercontent.com/188879584/Live2D/main/psd/psd.model3.json',
+            scale: 0.5
+          }
+        ]
+      });
+    </script>
+  </body>
+</html>
